@@ -1,8 +1,27 @@
 aid: policygenius
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/policygenius.png
 name: Policygenius
-description: 'Policygenius is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Policygenius is an independent online insurance marketplace and licensed
+  brokerage founded in 2014 by Jennifer Fitzgerald and Francois de Lame and headquartered
+  in New York City. The platform lets consumers compare quotes, get unbiased expert
+  advice, and buy life, disability, homeowners, auto, and renters insurance across
+  dozens of carriers, and it operates Policygenius Pro, a turnkey life-insurance fulfillment
+  platform for financial advisors, agents, banks, and credit unions. Policygenius
+  was acquired by Zinnia (an Eldridge company) in 2023. It was surfaced in the API
+  Evangelist network as a portfolio company of Norwest Venture Partners. As of this
+  enrichment pass Policygenius publishes no public developer API, developer portal,
+  or SDK; its GitHub organization hosts internal tooling and forks only.'
 url: https://raw.githubusercontent.com/api-evangelist/policygenius/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Insurance
+- InsurTech
+- Life Insurance
+- Marketplace
+- Comparison
+- Financial Services
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://policygenius.com
+  url: https://www.policygenius.com
+- type: Blog
+  url: https://www.policygenius.com/news/
+- type: Support
+  url: https://www.policygenius.com/about/
+- type: PrivacyPolicy
+  url: https://www.policygenius.com/about/privacy/
+- type: TermsOfService
+  url: https://www.policygenius.com/about/terms/
+- type: GitHubOrganization
+  url: https://github.com/policygenius
+- type: DomainSecurity
+  url: security/policygenius-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
