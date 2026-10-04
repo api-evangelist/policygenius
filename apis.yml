@@ -50,7 +50,7 @@ tags:
 - Life Insurance
 - Marketplace
 - Comparison
-- Financial-Services
+- Financial Services
 - Consumer
 tags_raw:
 - Company
@@ -61,6 +61,7 @@ tags_raw:
 - Comparison
 - Financial Services
 - Consumer
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
